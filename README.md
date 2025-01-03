@@ -1,16 +1,4 @@
-
-![30x30](https://user-images.githubusercontent.com/96420060/179494641-89ede898-38fb-42dd-b0e2-d36d643dd847.jpg)
-
-
-# WaterExp：一款面向安服仔的扫描报告模板 和 碰瓷工具 
-█ 打工人新时代的摸鱼解决方案，安抚仔挖不到洞的最后一丝欢颜！
-  
-    （不产生实际攻击）  
-    （不会getshell）  
-    （面向水报告）  
-什么红队蓝队的，要什么shell，老夫日站就是看响应头缺啥一把梭，只要看得过去就能过！
-
-# MoreWater：比原来更水的版本！
+# WaterExp_More：比原来更水的版本！
 
 ## 致谢
 感谢原作者 [@linshaoSec](https://github.com/linshaoSec) 的 [WaterExp](https://github.com/linshaoSec/WaterExp) 项目！
@@ -74,12 +62,6 @@ py3 WaterExp.py -f urls.txt
 
 扫描结果
 ![image](https://user-images.githubusercontent.com/96420060/179387420-0bc4d65c-5d74-4ea4-a476-23b6409c8c48.png)
-
-# 编程，免杀，工具开发 深入交流小圈子
-绕过您有更多的好检测的洞请告诉我添加进去哦~
-互相帮助才能打更好的工，摸更漂亮的鱼过期加拉哦
-
-![image](https://user-images.githubusercontent.com/96420060/189295166-8e2a46f4-b9b0-4339-9e5d-7389334dca7a.png)
 
 ![image](https://user-images.githubusercontent.com/96420060/195889411-34b82fd4-8f22-416c-b781-d3b256a00d2b.png)
 
