@@ -62,9 +62,3 @@ py3 WaterExp.py -f urls.txt
 
 扫描结果
 ![image](https://user-images.githubusercontent.com/96420060/179387420-0bc4d65c-5d74-4ea4-a476-23b6409c8c48.png)
-
-![image](https://user-images.githubusercontent.com/96420060/195889411-34b82fd4-8f22-416c-b781-d3b256a00d2b.png)
-
-
-# Star
-[![Stargazers over time](https://starchart.cc/linshaoSec/WaterExp.svg)](https://starchart.cc/linshaoSec/WaterExp)
