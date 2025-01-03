@@ -10,6 +10,48 @@
     （面向水报告）  
 什么红队蓝队的，要什么shell，老夫日站就是看响应头缺啥一把梭，只要看得过去就能过！
 
+# MoreWater：比原来更水的版本！
+
+## 致谢
+感谢原作者 [@linshaoSec](https://github.com/linshaoSec) 的 [WaterExp](https://github.com/linshaoSec/WaterExp) 项目！
+本项目在原项目基础上进行了功能增强和扩展。
+
+原本以为已经够水了？惊喜来了！
+这次我们带来了更多的"水分"，让你的报告更有技术深度！
+
+## 这波更新有啥亮点？
+
+### 响应头检测
+在原有基础上，我们新增了更全面的检测：
+- HSTS
+- X-Content-Type-Options
+- X-XSS-Protection
+- Referrer-Policy
+- X-Permitted-Cross-Domain-Policies
+
+一个不少，一个不落，让你的报告更加全面！
+
+### HTTP方法检测
+不仅仅是TRACE，现在PUT、DELETE、PATCH都纳入检测范围
+每个不安全方法都能被精准捕获，报告内容更加丰富~
+
+### 报错信息检测
+PHP版本泄露也逃不过我们的法眼
+把潜在的信息泄露风险一网打尽！
+
+## 使用方式还是那么简单
+```bash
+py3 WaterExp.py -u http://www.target.com
+py3 WaterExp.py -f urls.txt
+```
+
+## 最后说两句
+- 发现新的检测点？欢迎分享~
+- 一起让安全检测更加精准！
+
+记住：不是每个安服仔都需要getshell，但每个安服仔都要会写报告！
+
+
 # 配合《专业水报告漏洞模板.docx》食用更舒服
 # 使用方式：
     py3 WaterExp.py -u http://www.target.com
